@@ -1,0 +1,68 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Documentos\\Projects\\BBallAPI\\BBallAPI.csproj": {}
+  },
+  "projects": {
+    "C:\\Documentos\\Projects\\BBallAPI\\BBallAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Documentos\\Projects\\BBallAPI\\BBallAPI.csproj",
+        "projectName": "BBallAPI",
+        "projectPath": "C:\\Documentos\\Projects\\BBallAPI\\BBallAPI.csproj",
+        "packagesPath": "C:\\Users\\gaston.davola\\.nuget\\packages\\",
+        "outputPath": "C:\\Documentos\\Projects\\BBallAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Users\\gaston.davola\\AppData\\Local\\Microsoft\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\gaston.davola\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.1, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
+            "Microsoft.NETCore.App": {
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
